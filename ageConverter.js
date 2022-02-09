@@ -11,4 +11,4 @@ floatMonths = parseFloat(floatAge * 12);
 intFortnights = parseInt(floatDays / 14)
 
 //Alert user with results
-alert("You are " + floatAge + " years old. This means you are " + floatDays + " days old, " + intWeeks + " weeks old, " + floatMonths + " months old, and " + intFortnights + " fornights old.");
+alert("You are " + floatAge + " years old. This means you are " + floatDays + " days old, " + intWeeks + " weeks old, " + floatMonths + " months old, and " + intFortnights + " fortnights old.");
