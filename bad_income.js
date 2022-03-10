@@ -32,14 +32,14 @@ var calculateIncome = function ()
     	{
     		floatTaxRate = 5;
     	}
-			else if (floatAnnualIncome >= 30000 && floatAnnualIncome <= 75000)
-			{
-				floatTaxRate = 10;
-			}
-            else
-            {
-                floatTaxRate = 20;
-            }
+		else if (floatAnnualIncome >= 30000 && floatAnnualIncome <= 75000)
+		{
+			floatTaxRate = 10;
+		}
+        else
+        {
+            floatTaxRate = 20;
+        }
 	}
 
 
