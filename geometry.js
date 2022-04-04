@@ -160,7 +160,7 @@ window.onload = function ()
     $("calc_rect_perim").onclick = calcRectPerim; // runs the rectPerm function when clicked
     $("calc_tri_area").onclick = calcTriArea; // runs the triArea function when clicked
     $("calc_tri_perim").onclick = calcTriPerm; // runs the triPerim function when clicked
-    $("calc_circle_area").onclick = calcCrcleArea; // runs the circleArea function when clicked
+    $("calc_circle_area").onclick = calcCircleArea; // runs the circleArea function when clicked
 
     
 };
