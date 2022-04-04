@@ -132,7 +132,7 @@ function rectPerim(width, height)
 function triArea(side1, side2, side3)
 {
     floatS = (side1 + side2 + side3)/2;
-	floatTriangleArea = Math.sqrt((floatS*(floatS-floatTriSide1)*(floatS-floatTriSide2)*(floatS-floatTriSide3)));
+	floatTriangleArea = Math.sqrt((floatS*(floatS-side1)*(floatS-side2)*(floatS-side3)));
 	return floatTriangleArea.toFixed(2);
 }
 
