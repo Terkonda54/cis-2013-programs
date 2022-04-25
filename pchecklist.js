@@ -19,13 +19,15 @@ var passwordCheckOld = function()
     if(stringPassword.length < 8){
         stringOutput += "Password is not long enough! ";
     }
-    else{
+    else{ //8 or more chars
         stringOutput += "Length is good. "
     }
     
     //cycle through array comparing input to every value
     for(var i = 0; i < arrayBadPasswords.length; i++){
+        //if the input is the same as the one in array
         if(stringPassword === arrayBadPasswords[i]){
+            //add this to output
             stringOutput += "PASSWORD IS NOT UNIQUE!! ";
         }
     }
@@ -34,9 +36,7 @@ var passwordCheckOld = function()
 
 
 };
-/* insert code
-   * here
-   */
+
   
 
 window.onload = function()
